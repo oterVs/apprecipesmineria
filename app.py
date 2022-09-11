@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 app.config[
     "MONGO_URI"
-] = "mongodb+srv://OtterFox:sqbZeoBKy8Qp6fd9@cluster0.uwltrza.mongodb.net/mineria"
+] = "mongodb+srv://OtterFox:@cluster0.uwltrza.mongodb.net/mineria"
 
 mongo = PyMongo(app)
 
