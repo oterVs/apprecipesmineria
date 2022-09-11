@@ -20,6 +20,9 @@ app.config[
 
 mongo = PyMongo(app)
 
+@app.route("/")
+def index():
+    return "Hello World"
 # Este metodo recupera todas las recetas disponibles
 @app.route("/recipetwy", methods=["GET"])
 def get_recipestwy():
